@@ -14,6 +14,10 @@ This data was initially published on https://datahack.analyticsvidhya.com by Int
 
 ### Model Architecture
 
+We build our model inspired by the implementation of the ResNet-50, and ResNet-18 models. These models are pre-trained on ImageNet dataset showing optimal performance with large scale data. In this paper, we build five residual layers followed by flattening and dense layers with 64 filters and 2 strides in the Conv layers.
+The residual blocks overcome the problem of vanishing gradient in the other models by creating some shortcut connections across the model architecture.
+The data set is split into training data and validation data with ratios 80%, and 20% respectively. The model hyper-parameters include the stochastic gradient descent (SGD) as an optimizer and learning rate of 0.01.   
+
 ![](https://raw.githubusercontent.com/MohmedSoudy/Intel-Scene-Classification/main/Figure%201_cut.png)
 
 ### Results 
