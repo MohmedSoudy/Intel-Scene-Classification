@@ -27,4 +27,4 @@ The data set is split into training data and validation data with ratios 80%, an
 | ResNet50         | 25,636,712       |  94.63           |
 | ResNet 101       | 44,707,176       |  94.72           |
 | SE ResNext 101   | 44,177,704       |  94.36           |
-| RepConv          | 160,390          | 94.58            |
+| RepConv          | 160,390          | 93.55            |
