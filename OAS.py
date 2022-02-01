@@ -28,7 +28,7 @@ for file in list_of_files:
         sequences_filtered['Isotype'] = file.split("_")[2].split(".")[0]
         sequences_filtered.to_csv(file, header=True)
         logf.write("File {0} finished at: {1}\n".format(file, str(datetime.now())))
-        print("File " + str(Counter) + " Finished out of " + str(len(all_filenames)))
+        print("File " + str(Counter) + " Finished out of " + str(len(list_of_files)))
         Counter = Counter + 1
     except Exception as e:
         logf.write("Failed at {0}: {1}\n".format(file, str(e)))
